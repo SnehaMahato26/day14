@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="day14.css">
+</head>
+<body>
+    <div id="navbar">
+        logo
+
+         App
+        <nav>
+            <ul>
+                <li>About</li>
+                <li>Contact</li>
+                <li onclick="cartpage()">cart</li>
+            </ul>
+        </nav>
+    </div>
+
+    <button onclick="window.location.href='cart.html'">Go to Cart</button>
+    
+    
+    <div id="sorting">
+        <select name="" id="sort">
+            <option value="select">select</option>
+            <option value="asc">A to Z</option>
+            <option value="dsc">Z to A</option>
+        </select>
+
+        <select name="" id="filter">
+            <option name="fashion" id="fashion">Fashion</option>
+            <option name="wearable" id="wearable">Wearable</option>
+            <option name="electronics" id="electronics">Electronics</option>
+            <option name="accesories" id="accessories">Accessories</option>
+        </select>
+
+    </div>
+
+    <div id="products">
+
+    </div>
+    
+
+</body>
+</html>
+
+	<script src="day14.js"></script>
+

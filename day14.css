@@ -1,0 +1,44 @@
+#navbar{
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;    
+}
+    
+#navbar>nav>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+    
+.product-box{
+    border: 2px solid ☐ rgb(117, 99, 168);
+    text-align:center;
+    padding:20px;    
+}
+    
+.product-box>img{
+    height:200px;
+    width:100%;  
+    object-fit: cover;
+}
+
+.product-box>button{
+    width:50%;
+    padding:10px;
+    border:none;
+    background-color: rgb(151, 226, 231);
+    color: black;    
+}
+
+.product-box>button:hover{
+    background-color: rgb(3, 63, 68);    
+    cursor: pointer;
+}
+
+#products{
+    display: grid;  
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
